@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+body {
+    background-image:
+    url("../images/tech-planet.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    }
+
+.cabeçalho {
+    font-family: 'Supermercado One', cursive;
+}
+
+.conteudo {
+    border-top: 0.4px solid white ; position: relative; top: 50px;
+}
+
+    .cabeçalho {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-around;
+        padding: 20px 0px;
+        gap: 32px;
+        order: 5 ;
+        font-family: 'Supermercado One', cursive;
+    }
+    
+    .button {
+      display:flex;
+        background-color: rgba(11, 76, 180, 0.746);
+        border: 2px solid black;
+       color: white;
+       padding: 5px 10px;
+       text-align: center;
+       justify-content: center;
+       align-items: baseline; 
+       order: 5;
+       font-size: 20px;
+       margin: 10px 30px;
+       cursor: pointer;
+    }
+    
+    .nomedobot{
+        font-family: 'Luxurious Roman', cursive;
+        display: flex;
+        padding-left: 25px;
+
+    }
+
+    .texto{
+        font-family: 'Roboto', cursive;
+        font-size: larger;
+    }
+
+    .comandos {
+       color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: larger;
+        cursor: pointer;
+    }
+
+    .clear {
+        color: white;
+        font-size: 0.8cm;
+    }
+
+    .Server {
+        display:flex;
+        background-color: rgba(11, 76, 180, 0.746);
+        border: 2px solid black;
+       color: white;
+       padding: 5px 10px;
+       text-align: center;
+       justify-content: center;
+       align-items: baseline; 
+       order: 5;
+       font-size: 20px;
+       margin: 10px 30px;
+       cursor: pointer;
+    }
+
+    .divisao{
+        position: absolute; left: 40px;
+        width: 370px;
+        height: 0.01cm;
+        
+        border: 0.02cm solid #e4dede ;
+    }
+
+    .titulocomandos{
+        color: white;
+        font-family: 'Tajawal', sans-serif;
+        font-size: 1.1cm;
+    }
+
+    .divisao2{
+        position: absolute; top: 80px; 
+        width: 1820px;
+        height: 0.001px;
+        
+        border: 0.002px solid #e4dede ;
+    }
+
+    .tipodeletra{
+        font-family: 'Tajawal', sans-serif
+    }
